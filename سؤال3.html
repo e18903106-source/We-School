@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: 100px 100px;
+            grid-auto-rows: 70px;
+        }
+        .box:nth-child(7){
+            grid-column: 2/5;
+            grid-row: 3/5;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box box1">header</div>
+        <div class="box box2">about</div>
+        <div class="box box3">communication</div>
+        <div class="box box4">networking</div>
+        <div class="box box5">programming</div>
+        <div class="box box6">footer</div>
+        <div class="box box7">Emy</div>
+    </div>
+</body>
+</html>
